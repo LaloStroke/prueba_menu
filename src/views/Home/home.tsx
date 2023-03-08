@@ -5,7 +5,7 @@ import "./index.css";
 
 const Home: React.FC = (): JSX.Element => {
   const { data, isSuccess, loading } = useQuery(
-    "http://3.140.212.226/pruebasAPI/menu.json"
+    "https://3.140.212.226/pruebasAPI/menu.json"
   );
   const [food, setFood] = React.useState<MenuItem[]>([]);
   const [drinks, setDrinks] = React.useState<MenuItem[]>([]);
