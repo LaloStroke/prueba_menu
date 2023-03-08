@@ -1,0 +1,9 @@
+.FoodList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2.5rem;
+  padding: 2rem;
+}

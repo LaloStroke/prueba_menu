@@ -1,0 +1,23 @@
+.header {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.Lists {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.Food {
+  max-width: 60rem;
+  text-align: center;
+}
+
+.Drink {
+  text-align: center;
+  max-width: 60rem;
+}
+
+.h4 {
+  font-size: 1.5rem;
+}
