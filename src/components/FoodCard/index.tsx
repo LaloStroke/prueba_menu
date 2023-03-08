@@ -1,4 +1,5 @@
 import React, { useMemo } from "react";
+import { Images } from "../../constants/images";
 import "./index.css";
 
 const FoodCard: React.FC<{ item: MenuItem }> = ({ item }): JSX.Element => {
@@ -14,7 +15,7 @@ const FoodCard: React.FC<{ item: MenuItem }> = ({ item }): JSX.Element => {
     <div className="foodCard">
       <img
         className="foodCard__img"
-        src={`src/assets/${nameWithoutSpaces}.jpeg`}
+        src={Images.get(nameWithoutSpaces) || Images.get("default")}
         alt="imagen de comida y/o bebida"
       />
       <div className="Info">
