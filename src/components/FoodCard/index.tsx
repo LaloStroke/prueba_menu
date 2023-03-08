@@ -14,7 +14,7 @@ const FoodCard: React.FC<{ item: MenuItem }> = ({ item }): JSX.Element => {
     <div className="foodCard">
       <img
         className="foodCard__img"
-        src={`./src/assets/${nameWithoutSpaces}.jpeg`}
+        src={`src/assets/${nameWithoutSpaces}.jpeg`}
         alt="imagen de comida y/o bebida"
       />
       <div className="Info">
